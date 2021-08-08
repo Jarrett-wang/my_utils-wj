@@ -20,4 +20,4 @@ const pubSub = {
     };
   },
 };
-export default pubSub;
+export {pubSub};

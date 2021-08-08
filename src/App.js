@@ -1,4 +1,5 @@
 import React ,{ useEffect } from 'react'
+// 验证全局属性
 console.log(SERVER.name);
 const App = () => {
 

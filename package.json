@@ -1,14 +1,21 @@
 {
   "name": "untis-tools-wj",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "工具函数库",
+  "main": "./dist/wj-tools-utils.js",
   "scripts": {
     "test": "node ./scripts/build.js",
     "start": "webpack serve --mode=development --config webpack.dev.config.js",
     "build": "webpack --config webpack.prod.config.js"
   },
-  "author": "",
+  "keywords": [
+    "pub-sub",
+    "utils",
+    "debounce",
+    "throttle",
+    "string"
+  ],
+  "author": "wj",
   "license": "ISC",
   "dependencies": {
     "html-webpack-plugin": "^5.3.2"

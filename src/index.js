@@ -3,7 +3,8 @@ export { debounce } from "./function/debounce.js";
 export { throttle } from "./function/throttle.js";
 
 // 暴露字符串相关API
-export { reverseString, palindrome, truncate } from "./string/reverseString";
+export { reverseString, palindrome, truncate } from "./string/index";
+export { toHump, toLine, filterParameters,filterKeyToLine,rollBackLine, } from "./line-hump/index";
 
 // 暴露事件相关API
-export { PubSub } from "./event/pubSub";
+export { pubSub } from "./event/pubSub";

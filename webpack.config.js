@@ -13,7 +13,9 @@ module.exports = {
     },
   output:{
     path: path.resolve(__dirname,`./dist`),
-    filename: '[name].[hash].js',
+    filename: 'wj-tools-utils.js',
+    library:'wjUtils',
+    libraryTarget:'umd'
   },
   module:{
     rules:[
@@ -55,7 +57,6 @@ module.exports = {
     }),
     new CleanWebpackPlugin(),
     new webpack.DefinePlugin({
-      // SERVER: JSON.stringify(serverConfig),
       SERVER: JSON.stringify(obj),
     }),
   ]
